@@ -12,7 +12,7 @@ import com.anthem.pojo.Employee;
 
 @RestController
 public class EmployeeResource {
-	
+	//auto wired annotation used
 	@Autowired
 	EmployeeRepo empRepo;
 	
